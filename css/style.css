@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Estrutura*/
+  header{
+    display: flex; 
+    height: 50px;
+    justify-content: space-between;
+    padding-top: 24px;
+    margin-bottom: 12px;
+  }
+
+  main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1440px;
+    height: 150px;
+   
+  }
+/*Estrutura*/
+
+
+
+/*Elementos*/
+input{
+    width: 348px;
+    height: 40px;
+    
+}
+
+button{
+    width: 57px;
+    height: 40px;
+    
+}
+/*Elementos*/
+
+
+/*Classes*/
+
+
+.MenuBanner img{
+    padding-left: 20px;
+}
+.pesquisa{
+    display: flex;
+}
+.icons{
+    display: flex;
+    width: 200px;
+    height: 34px;
+    gap: 24px;
+   
+}
+
+.icon1{
+    width: 24px;
+    padding-top: 10px ;
+}
+
+.icon2{
+    width: 24px;
+    padding-top: 10px ;
+    
+
+}
+
+.icon3 img{
+   width: 42px;
+   border-radius: 50px;
+}
+
+
+.perfil{
+    width: 42px;
+    border-radius: 50px;
+}
+
+
+.video p{
+   font-weight: 700;
+   font-size: 20px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+.informacoes{
+    display: flex;
+    width: 902px;
+    height: 42px;
+    gap: 15px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.informacoes button{
+    width: 175px;
+    background-color: red;
+    border-color: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.images{
+   width: 24px; 
+   padding-top: 5px;
+  
+}
+
+.text{
+    padding-top: 7px;
+}
+
+    
+.text button{
+   width: 175px;
+   background-color: red;
+   border-color: transparent;
+   text-transform: uppercase;
+   font-size: 14px;
+   font-weight: 600;
+   color: white;
+
+}
+
+.conteneir{
+    display: flex;
+    
+    
+}
+
+.itemVideo{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.itemVideo{
+    width: 200px;
+    margin-bottom: 17px;
+}
+
+.textRecom{
+   display: flex;
+   flex-direction: column;
+   width: 250px;
+   padding-top: 15px;
+   padding-left: 15px;
+}
+
+.itemText{
+    
+  padding-bottom: 42px;
+    
+}
+
+.videoinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.itemText b{
+    
+    font-size: 15px;
+}
+
+.discricao{
+    width: 750px;
+}
+
+/*Classes*/
+
